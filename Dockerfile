@@ -9,4 +9,4 @@ RUN bundle install && gem build rhymer.gemspec && gem install rhymer-0.0.4.gem
 ENV LANG=ja_JP.UTF-8
 COPY server.rb server.rb
 
-CMD ["ruby", "server.rb", "-p", "2000", "-o", "0.0.0.0"]
+CMD ["ruby", "server.rb", "-p", "4567", "-o", "0.0.0.0"]
