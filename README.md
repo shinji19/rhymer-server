@@ -9,4 +9,4 @@ docker run -it -d -p 2000:2000 shinji19/rhymer-server
 
 ## 使い方
 curl localhost:2000/rhyme
-> 八重咲きの品種はヤエザクラ 九州では桜
+> 花見の宴会でサクラ 次いでヤマザクラ
